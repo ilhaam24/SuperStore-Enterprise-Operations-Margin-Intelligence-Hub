@@ -67,7 +67,8 @@ I used PowerBI for Dashboard creation.
 
 ## 📈 Core Business Questions Answered
 **1. Margin Leaks:** At what exact discount threshold does promotional volume fail to compensate for price cuts?
-= ** Margin Leaks: **The Discount Threshold
+= 
+** Margin Leaks: **The Discount Threshold
 20% is the critical breaking point.
 
 **The Insight:**
