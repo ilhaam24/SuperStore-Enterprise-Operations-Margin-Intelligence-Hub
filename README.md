@@ -66,6 +66,14 @@ I used PowerBI for Dashboard creation.
 ---
 
 ## 📈 Core Business Questions Answered
-1. **Margin Leaks:** At what exact discount threshold does promotional volume fail to compensate for price cuts?
+**1. Margin Leaks:** At what exact discount threshold does promotional volume fail to compensate for price cuts?
+= ** Margin Leaks: **The Discount Threshold
+20% is the critical breaking point.
+
+**The Insight:**
+Discounts in the Low Discount (1–20%) tier maintain healthy, positive margins while driving sales volume.
+Once discounts cross into the Medium (21–50%) and High (>50%) tiers, unit margins collapse so severely that even massive increases in order volume cannot cover the financial loss.
+Category Impact: Furniture and Technology suffer the worst—high-discount sales in these categories yield negative net profits (e.g., selling tables or copiers at 50% off creates losses exceeding $100+ per unit).
+
 2. **Logistical Risks:** Which global regions face systemic bottlenecks where delivery windows violate our standard 6-day SLA?
 3. **Revenue Drivers:** Which 20% of our product portfolio requires strict inventory protection to secure 80% of global cash flow?
