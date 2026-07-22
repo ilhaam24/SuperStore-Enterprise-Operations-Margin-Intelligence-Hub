@@ -54,18 +54,15 @@ I used PowerBI for Dashboard creation.
 * **Key Visuals:** Global Geospatial Map, Advanced Market Slicer Drawer (Tiles), Top/Bottom Country Leaderboards, and Order Priority Donut Split.
 * <img width="1317" height="737" alt="SuperStoreDashboardTAB1" src="https://github.com/user-attachments/assets/86205417-f624-4f78-ab2f-fcb9035ed5c8" />
 
-
 ## Tab 2: Product Performance & Pricing Deep-Dive
 * **Focus:** Identifying margin leakage and promotional efficiency.
 * **Key Visuals:** DAX-driven 80/20 Pareto combo chart, High-Density Margin Scatter Plot, and Color-Coded Category Discount Matrix.
 * <img width="1317" height="739" alt="SuperStoreDashboardTAB2" src="https://github.com/user-attachments/assets/6f962a19-8dab-4389-9285-c10b660d15f8" />
 
-
 ## Tab 3: Supply Chain & Logistical Optimization
 * **Focus:** Operational fulfillment efficiency and SLA risk management.
 * **Key Visuals:** Speedometer SLA Gauge, Avg Days-to-Ship Column Split, Carrier Cost Burden Treemap, and a Live Red-Alert Exception Grid tracking delays > 6 days.
 * <img width="1308" height="739" alt="SuperStoreDashboardTAB3" src="https://github.com/user-attachments/assets/98bf436d-be11-40a9-9f82-417178de9710" />
-
 
 ---
 
