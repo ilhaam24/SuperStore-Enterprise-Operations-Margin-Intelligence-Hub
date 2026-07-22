@@ -19,7 +19,7 @@ df = pd.read_csv(file_path)
 print("--- Re-Parsing Dates Correctly ---")
 
 # 2. Use dayfirst=True to force Pandas to read DD/MM/YYYY correctly
-#This tells Pandas that if it sees "02/05/2011", it is May 2nd, NOT February 5th
+# This tells Pandas that if it sees "02/05/2011", it is May 2nd, NOT February 5th
 df['order_date'] = pd.to_datetime(df['order_date'], dayfirst=True, errors='coerce')
 df['ship_date'] = pd.to_datetime(df['ship_date'], dayfirst=True, errors='coerce')
 
