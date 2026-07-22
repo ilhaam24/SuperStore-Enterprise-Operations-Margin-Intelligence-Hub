@@ -49,17 +49,18 @@ I used PowerBI for Dashboard creation.
 
 #Dashboard-Architecture-&-Insights
 
-### Tab 1: Global Executive Sales & Profitability
+## Tab 1: Global Executive Sales & Profitability
 * **Focus:** High-level commercial health and urgency strain.
 * **Key Visuals:** Global Geospatial Map, Advanced Market Slicer Drawer (Tiles), Top/Bottom Country Leaderboards, and Order Priority Donut Split.
-* *[Insert Images/tab1_executive_view.png here]*
+* <img width="1317" height="737" alt="SuperStoreDashboardTAB1" src="https://github.com/user-attachments/assets/86205417-f624-4f78-ab2f-fcb9035ed5c8" />
 
-### Tab 2: Product Performance & Pricing Deep-Dive
+
+## Tab 2: Product Performance & Pricing Deep-Dive
 * **Focus:** Identifying margin leakage and promotional efficiency.
 * **Key Visuals:** DAX-driven 80/20 Pareto combo chart, High-Density Margin Scatter Plot, and Color-Coded Category Discount Matrix.
 * *[Insert Images/tab2_product_deepdive.png here]*
 
-### Tab 3: Supply Chain & Logistical Optimization
+## Tab 3: Supply Chain & Logistical Optimization
 * **Focus:** Operational fulfillment efficiency and SLA risk management.
 * **Key Visuals:** Speedometer SLA Gauge, Avg Days-to-Ship Column Split, Carrier Cost Burden Treemap, and a Live Red-Alert Exception Grid tracking delays > 6 days.
 * *[Insert Images/tab3_supply_chain.png here]*
