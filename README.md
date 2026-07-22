@@ -6,10 +6,10 @@ An end-to-end business intelligence solution that transforms 51,000+ rows of raw
 I used kaggle to find the appropiete dataset for my data analysis. The link for the dataset is given below:
 "https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset"
 
-#Data-Cleaning
+# Data-Cleaning
 One of the most integral part of data analysis. The main challenge I face during the cleaning of this particular dataset is the formatting issue regarding "order_date" and "ship_date" column. To rectify this issue I used python. The code used for the purpose is given below: 
 
-#Python-code-for-fixing-data-format
+# Python-code-for-fixing-data-format
 
 import pandas as pd
 
