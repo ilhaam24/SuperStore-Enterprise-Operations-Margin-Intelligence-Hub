@@ -69,8 +69,3 @@ I used PowerBI for Dashboard creation.
 1. **Margin Leaks:** At what exact discount threshold does promotional volume fail to compensate for price cuts?
 2. **Logistical Risks:** Which global regions face systemic bottlenecks where delivery windows violate our standard 6-day SLA?
 3. **Revenue Drivers:** Which 20% of our product portfolio requires strict inventory protection to secure 80% of global cash flow?
-
-## 🚀 How to Run This Project
-1. Clone the repository.
-2. Open `/Scripts/data_preprocessing.py` to view the engineering pipeline.
-3. Download and open `/Dashboard/Global_Retail_Operations_Hub.pbix` in Power BI Desktop to interact with the model.
