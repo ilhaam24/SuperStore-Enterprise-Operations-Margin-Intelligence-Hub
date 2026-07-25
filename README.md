@@ -8,11 +8,10 @@ I used kaggle to find the appropiete dataset for my data analysis. The link for 
 # Data-Cleaning
 One of the most integral part of data analysis. The main challenge I face during the cleaning of this particular dataset is the formatting issue regarding "order_date" and "ship_date" column. To rectify this issue I used python. The code used for the purpose is given below: 
 
-Python-code-for-fixing-data-format
+# Python-code-for-fixing-data-format
 
 import pandas as pd
 
-1. Load the ORIGINAL raw dataset
 file_path = "C:\Users\wwwil\Downloads\SuperStoreOrders.csv"
 df = pd.read_csv(file_path)
 
