@@ -8,38 +8,31 @@ I used kaggle to find the appropiete dataset for my data analysis. The link for 
 # Data-Cleaning
 One of the most integral part of data analysis. The main challenge I face during the cleaning of this particular dataset is the formatting issue regarding "order_date" and "ship_date" column. To rectify this issue I used python. The code used for the purpose is given below: 
 
-# Python-code-for-fixing-data-format
+Python-code-for-fixing-data-format
 
 import pandas as pd
 
-# 1. Load the ORIGINAL raw dataset
-file_path = "SuperStoreOrders.csv"
+1. Load the ORIGINAL raw dataset
+file_path = "C:\Users\wwwil\Downloads\SuperStoreOrders.csv"
 df = pd.read_csv(file_path)
 
-print("--- Re-Parsing Dates Correctly ---")
-
-# 2. Use dayfirst=True to force Pandas to read DD/MM/YYYY correctly
-# This tells Pandas that if it sees "02/05/2011", it is May 2nd, NOT February 5th
 df['order_date'] = pd.to_datetime(df['order_date'], dayfirst=True, errors='coerce')
 df['ship_date'] = pd.to_datetime(df['ship_date'], dayfirst=True, errors='coerce')
 
-# 3. Quick validation check to ensure no dates were corrupted into NaT
 missing_orders = df['order_date'].isna().sum()
 missing_ships = df['ship_date'].isna().sum()
 print(f"Unparsed Order Dates: {missing_orders}")
 print(f"Unparsed Ship Dates: {missing_ships}")
 
-# 4. Export into the clean YYYY-MM-DD standard format for Power BI
 df['order_date'] = df['order_date'].dt.strftime('%Y-%m-%d')
 df['ship_date'] = df['ship_date'].dt.strftime('%Y-%m-%d')
 
-# 5. Save and overwrite the Step 1 file
 output_path = ""C:\Users\wwwil\Downloads\SuperStore_Production_Cleaned.xlsx""
 df.to_csv(output_path, index=False)
 
 print("\nSuccess!")
 
-# END-of-the-code
+END-of-the-code
 
 I also added a column "days_to_ship", which will be used for data visualization later. 
 
