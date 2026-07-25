@@ -31,14 +31,10 @@ df.to_csv(output_path, index=False)
 
 print("\nSuccess!")
 
-END-of-the-code
-
-I also added a column "days_to_ship", which will be used for data visualization later. 
-
-#Data-Visualization
+# Data-Visualization
 I used PowerBI for Dashboard creation.
 
-#Dashboard-Architecture-&-Insights
+# Dashboard-Architecture-&-Insights
 
 ## Tab 1: Global Executive Sales & Profitability
 * **Focus:** High-level commercial health and urgency strain.
