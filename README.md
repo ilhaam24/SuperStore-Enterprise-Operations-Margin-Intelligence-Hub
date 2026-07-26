@@ -68,7 +68,7 @@ While markets like North America and Western Europe maintain efficient average d
 These specific regions account for over 35% of all late shipment alert rows in the entire dataset, signaling systemic regional carrier delays or customs bottlenecks rather than isolated fulfillment mistakes.
 
 # 3. Revenue Drivers: The Core 20% (Pareto Cutoff)
-The Answer: 4 out of 17 Sub-Categories (~23% of your product catalog): Phones, Copiers, Chairs, and Bookcases.
+The Answer: 4 out of 17 Sub-Categories (~23% of the product catalog): Phones, Copiers, Chairs, and Bookcases.
 The Insight:
 Out of 17 total sub-categories, just these 4 top-performing product lines drive 80% of global revenue.
 Business Action: Inventory management teams must prioritize stock protection and supply chain resilience for these 4 sub-categories. A stockout in Phones or Chairs damages global cash flow far more severely than a stockout in long-tail items like Envelopes, Fasteners, or Labels.
