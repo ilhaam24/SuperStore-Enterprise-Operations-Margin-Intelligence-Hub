@@ -54,27 +54,21 @@ I used PowerBI for Dashboard creation.
 ---
 
 ## 📈 Core Business Questions Answered
-#1. Margin Leaks: The Discount Threshold
+# 1. Margin Leaks: The Discount Threshold
 The Answer: 20% is the critical breaking point.
 The Insight:
 Discounts in the Low Discount (1–20%) tier maintain healthy, positive margins while driving sales volume.
 Once discounts cross into the Medium (21–50%) and High (>50%) tiers, unit margins collapse so severely that even massive increases in order volume cannot cover the financial loss.
 Category Impact: Furniture and Technology suffer the worst—high-discount sales in these categories yield negative net profits (e.g., selling tables or copiers at 50% off creates losses exceeding $100+ per unit).
 
-2. Logistical Risks: Systemic 6-Day SLA Violations
+# 2. Logistical Risks: Systemic 6-Day SLA Violations
 The Answer: Southeast Asia, Central Africa, and select LATAM (Latin America) territories.
-
 The Insight:
-
 While markets like North America and Western Europe maintain efficient average delivery times of 4.1 to 4.5 days, regions like Southeast Asia and Central Africa average 6.2 to 6.8 days to ship.
-
 These specific regions account for over 35% of all late shipment alert rows in the entire dataset, signaling systemic regional carrier delays or customs bottlenecks rather than isolated fulfillment mistakes.
 
-3. Revenue Drivers: The Core 20% (Pareto Cutoff)
-The Answer: 4 out of 17 Sub-Categories (~23% of your product catalog): Phones, Chairs, Storage, and Copiers.
-
+# 3. Revenue Drivers: The Core 20% (Pareto Cutoff)
+The Answer: 4 out of 17 Sub-Categories (~23% of your product catalog): Phones, Copiers, Chairs, and Bookcases.
 The Insight:
-
 Out of 17 total sub-categories, just these 4 top-performing product lines drive 80% of global revenue.
-
 Business Action: Inventory management teams must prioritize stock protection and supply chain resilience for these 4 sub-categories. A stockout in Phones or Chairs damages global cash flow far more severely than a stockout in long-tail items like Envelopes, Fasteners, or Labels.
