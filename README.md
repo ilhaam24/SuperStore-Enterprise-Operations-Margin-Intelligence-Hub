@@ -32,8 +32,7 @@ df.to_csv(output_path, index=False)
 print("\nSuccess!")
 
 # Data-Visualization
-I used PowerBI for Dashboard creation. 
-https://github.com/ilhaam24/SuperStore-Enterprise-Operations-Margin-Intelligence-Hub/blob/main/Final_SuperStore_Data_Visualization.pbix
+I used PowerBI for Dashboard creation. Here is the dashboard: https://github.com/ilhaam24/SuperStore-Enterprise-Operations-Margin-Intelligence-Hub/blob/main/Final_SuperStore_Data_Visualization.pbix
 
 # Dashboard-Architecture-&-Insights
 
